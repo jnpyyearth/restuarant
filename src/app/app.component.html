@@ -7,10 +7,13 @@
     <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/"><i class="bi bi-house"></i> Home</a>
+          <a class="nav-link" routerLink="/home"><i class="bi bi-house"></i> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="">เมนูอาหาร</a>
+          <a class="nav-link" routerLink="/menu">เมนูอาหาร</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/reservation">จองโต๊ะอาหาร</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/about-us">เกี่ยวกับเรา</a>
@@ -22,7 +25,12 @@
     </div>
   </div>
 </nav>
+<!--class="navbar-toggler": กำหนดให้ปุ่มนี้เป็นปุ่มสำหรับเปิด/ปิดแถบเมนู -->
+<!--type="button": ระบุว่าปุ่มนี้เป็นปุ่มประเภท "button">
+<!-type="button": ระบุว่าปุ่มนี้เป็นปุ่มประเภท "button">
+<!-"button": ระบุว่าปุ่มนี้เป็นปุ่มประเภท "button">
 
+<!-tag directive-->
 <div class="container mt-4">
   <router-outlet></router-outlet>
-</div>
+</div> 
