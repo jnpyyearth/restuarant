@@ -1,0 +1,23 @@
+.image-container {
+    position: relative; /* เพื่อทำให้ข้อความอยู่ในรูปภาพ */
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+    border-radius: 15px; 
+}
+
+.image-container h3 {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 10px; 
+    font-size: 1.5rem;
+    text-align: center;
+}
